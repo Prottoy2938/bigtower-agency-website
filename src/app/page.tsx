@@ -32,6 +32,20 @@ const clients = [
   ['North Adventures', logoNorthAdventures],
 ]
 
+{/* <Script
+src="https://www.googletagmanager.com/gtag/js?id=G-NKMY0PML7E"
+strategy="afterInteractive"
+/>
+<Script id="google-analytics" strategy="afterInteractive">
+{`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NKMY0PML7E');
+`}
+</Script> */}
+
 function Clients() {
   return (
     <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
