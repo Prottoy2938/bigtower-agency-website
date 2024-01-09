@@ -28,7 +28,9 @@ const navigation = [
       { title: 'About', href: '/about' },
       { title: 'Process', href: '/process' },
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact us', href: '/contact' },
+      // { title: 'Contact us', href: '/contact' },
+      { title: 'Contact us', href: 'https://calendly.com/svesp23/sales-demo' },
+
     ],
   },
   {

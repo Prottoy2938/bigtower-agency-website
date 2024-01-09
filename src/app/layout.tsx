@@ -7,8 +7,8 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Studio',
-    default: 'Studio - Award winning developer studio based in Denmark',
+    template: '%s - Bigtower Studio',
+    default: 'Bigtower Studio -  We Help Online Couches Get More Leads, Close Sales and Keep Clients',
   },
 }
 

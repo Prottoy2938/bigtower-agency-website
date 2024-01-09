@@ -14,7 +14,7 @@ import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
 import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
 import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
 import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
+import logoEasyMoney from '@/images/clients/easymoney-university/easyunilogo.svg'
 import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
@@ -22,14 +22,14 @@ import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['EasyMoney University', logoEasyMoney],
+  // ['Phobia', logoPhobiaLight],
+  // ['Family Fund', logoFamilyFund],
+  // ['Unseal', logoUnseal],
+  // ['Mail Smirk', logoMailSmirk],
+  // ['Home Work', logoHomeWork],
+  // ['Green Life', logoGreenLife],
+  // ['Bright Path', logoBrightPath],
 ]
 
 {/* <Script
@@ -52,7 +52,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
+Our most recent Clients
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -83,13 +83,11 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="Want More Students Enrolling in Your Course?"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
-          challenges. It’s also the cause, so we find ourselves in bit of a
-          catch 22 situation.
+        You're not alone! Many course creators struggle with attracting website visitors. In fact, most get fewer than 500 a month. Not nearly enough to make even ONE enrollment... But with Us, you'll see results within 1 month, Guaranteed.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -140,7 +138,7 @@ function Services() {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        title="Yo"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
@@ -160,24 +158,18 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="No more lead Generation Challenges">
+            	Building lasting relationships is at the core of coaching success. Our expertise extends beyond creating websites – we create experiences that keep your clients engaged and committed. Say goodbye to high dropout rates and hello to long-term partnerships.
             </ListItem>
-            <ListItem title="Application development">
+            <ListItem title="Stop Client Dropout Rates">
               We have a team of skilled developers who are experts in the latest
               app frameworks, like Angular 1 and Google Web Toolkit.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Get your Client to Trust">
+            •	In a sea of online coaches, standing out requires a trustworthy image. Our web solutions websites are meticulously crafted to build and showcase your credibility. Let's eliminate skepticism and reinforce your expertise in the digital world.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Keep your Client Engaged">
+            •	Educating potential clients about the transformative power of coaching is key. Our websites are not just informative but interactive, delivering your message with impact. Let's turn curious visitors into clients who truly understand and value your coaching services.
             </ListItem>
           </List>
         </div>
@@ -188,23 +180,24 @@ function Services() {
 
 export const metadata: Metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'We Help Online Couches Get More Leads Close Sales and Keep Clients',
 }
 
 export default async function Home() {
-  let caseStudies = (await loadCaseStudies()).slice(0, 3)
+  // EDITED HERE
+  let caseStudies = (await loadCaseStudies()).slice(0, 1)
 
   return (
     <>
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+          {/* We Help Online Couches Get More Leads Close Sales and Keep Clients */}
+          Get more Repeatable and Profitable Results
+
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+          We help Online Courses and Coaching Programs stay in front of their best-fit buyers till they are ready to engage and convert.
           </p>
         </FadeIn>
       </Container>
@@ -215,11 +208,9 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Phobia', logo: logoEasyMoney }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+      The team at BigTower Studio went above & beyong with our marketing campaign. On tight marketing budget, they managed to make our university known all over Algerian Social Media & Grew our students by over 40% in the span of two weeks.
       </Testimonial>
 
       <Services />
