@@ -142,8 +142,7 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+         Some text here
         </p>
       </SectionIntro>
       <Container className="mt-16">
