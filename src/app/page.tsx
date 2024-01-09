@@ -87,7 +87,7 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-        You're not alone! Many course creators struggle with attracting website visitors. In fact, most get fewer than 500 a month. Not nearly enough to make even ONE enrollment... But with Us, you'll see results within 1 month, Guaranteed.
+        You&apos;re not alone! Many course creators struggle with attracting website visitors. In fact, most get fewer than 500 a month. Not nearly enough to make even ONE enrollment... But with Us, you&apos;ll see results within 1 month, Guaranteed.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -166,10 +166,10 @@ function Services() {
               app frameworks, like Angular 1 and Google Web Toolkit.
             </ListItem>
             <ListItem title="Get your Client to Trust">
-            •	In a sea of online coaches, standing out requires a trustworthy image. Our web solutions websites are meticulously crafted to build and showcase your credibility. Let's eliminate skepticism and reinforce your expertise in the digital world.
+            •	In a sea of online coaches, standing out requires a trustworthy image. Our web solutions websites are meticulously crafted to build and showcase your credibility. Let&apos;s eliminate skepticism and reinforce your expertise in the digital world.
             </ListItem>
             <ListItem title="Keep your Client Engaged">
-            •	Educating potential clients about the transformative power of coaching is key. Our websites are not just informative but interactive, delivering your message with impact. Let's turn curious visitors into clients who truly understand and value your coaching services.
+            •	Educating potential clients about the transformative power of coaching is key. Our websites are not just informative but interactive, delivering your message with impact. Let&gitapos;s turn curious visitors into clients who truly understand and value your coaching services.
             </ListItem>
           </List>
         </div>
